@@ -95,7 +95,7 @@ class App extends React.Component {
             },
             mode: 'cors',
             body: JSON.stringify({
-                name: NU[0], title:NU[1], body:NU[2],
+                name: NU[1], title:NU[2], body:NU[3],
             }),
         }).then(response => response.text())
             .then(data => console.log(data))    
